@@ -6,11 +6,11 @@
 #include <stdio.h>
 int main(void)
 {
-	int i;
-	long int l;
-	char c;
+	int x;
+	long int y;
+	char a;
 	float f;
-	long long int k;
+	long long int z;
 printf("%lu\n", sizeof(char));
 printf("%lu\n", sizeof(int));
 printf("%lu\n", sizeof(float));

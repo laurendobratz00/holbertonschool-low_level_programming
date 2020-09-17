@@ -3,12 +3,13 @@
 * desription: Sorting numbers
 * Return: 0
 */
+
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 
 int main(void)
-
+{
 int n;
 
 srand(time(0));
@@ -24,3 +25,4 @@ else (n == 0)
 {printf("%d is zero \n")
 }
 return (0);
+}

@@ -1,6 +1,6 @@
 /**
 * main- void
-* description: prints string                           
+* description: prints string
 * Return: 0
 */
 #include <stdio.h>

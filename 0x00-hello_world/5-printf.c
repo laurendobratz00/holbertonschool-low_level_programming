@@ -1,6 +1,6 @@
 /**
 * main- void
-* description: prints "with proper grammar, but the outcome is a piece of art,"
+* description: prints with proper grammar, but the outc* ome is a piece of art,
 * Return: 0
 */
 #include <stdio.h>

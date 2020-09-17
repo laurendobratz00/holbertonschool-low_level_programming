@@ -7,8 +7,10 @@
 int main(void)
 {
 	int i;
-	double c;
+	long int l;
 	char c;
+	float f;
+	long long int k;
 printf("%lu\n", sizeof(char));
 printf("%lu\n", sizeof(int));
 printf("%lu\n", sizeof(float));

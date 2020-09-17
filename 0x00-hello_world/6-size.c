@@ -7,7 +7,7 @@
 int main(void)
 {
 	int i;
-	double d;
+	double c;
 	char c;
 printf("%lu\n", sizeof(char));
 printf("%lu\n", sizeof(int));

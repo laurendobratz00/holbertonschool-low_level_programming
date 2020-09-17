@@ -10,10 +10,11 @@ int main(void)
 	long int y;
 	char a;
 	float f;
-	long long int z;
-printf("%lu\n", sizeof(char));
+	long long int L;
 printf("%lu\n", sizeof(int));
+printf("%lu\n", sizeof(long int));
+printf("%lu\n", sizeof(char));
 printf("%lu\n", sizeof(float));
-printf("%lu", sizeof(double));
+printf("%lu\n", sizeof(long long int));
 return (0);
 }

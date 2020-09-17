@@ -1,23 +1,26 @@
+/**
+* main- void
+* desription: Sorting numbers
+* Return: 0
+*/
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main()
+int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf("Enter any number: \n");
-	scanf("%d", &n);
 	if (n > 0)
-		printf("Number is positive \n", n);
-	if (n <0)
-		printf("Number is negative \n", n);
-	if (n == 0)
-		printf("Number is ZERO \n")
+		printf("%d is positive \n", n);
+	else if (n < 0)
+		printf("%d is negative \n", n);
+	else (n == 0)
+		printf("%d is zero \n")
 	/* your code goes there */
 	return (0);
 }

@@ -1,6 +1,6 @@
 /**
 * main- void
-* description: prints with proper grammar, but the outc* ome is a piece of art,
+* description: prints string
 * Return: 0
 */
 #include <stdio.h>

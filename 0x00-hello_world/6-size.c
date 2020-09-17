@@ -6,6 +6,9 @@
 #include <stdio.h>
 int main(void)
 {
+	int i;
+	double d;
+	char c;
 printf("%lu\n", sizeof(char));
 printf("%lu\n", sizeof(int));
 printf("%lu\n", sizeof(float));

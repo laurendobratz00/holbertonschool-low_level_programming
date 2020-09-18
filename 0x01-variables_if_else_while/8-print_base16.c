@@ -1,19 +1,23 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
+ * main- void
+ * description: Prints base 16
+ * Return: 0
 */
 
 int main(void)
 {
-	int i = 0;
+	int i, n;
 
-	for (i = '0' ; i <= '15' ; i++)
-        {
-		putchar(i);
-	}
-        putchar('\n');
-        return (0);
+	for (i = '0' ; i <= '9' ; i++)
+{
+	putchar(i);
+}
+	for (n = 'a' ; n <= 'f' ; n++)
+{
+		putchar(n);
+}
+putchar('\n');
+return (0);
 }

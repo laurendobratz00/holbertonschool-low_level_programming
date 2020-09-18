@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
+ * main- void
+ * description: All combos of 3 digits
+ * Return: 0
 */
 
 int main(void)
 {
-	int i, n, t =1;
-	int new = 10 ;
+	int i, n, t = 1;
+	int new = 10;
 	int sp = ' ';
 	int co = ' ';
 
@@ -19,8 +19,10 @@ int main(void)
 		{
 			if (n / 10 % 10 >= n % 10)
 				break;
-			n /= 10;
-			if (!n && i > 10 ){
+
+n /= 10;
+			if (!n && i > 10)
+{
 				if (t)
 					t = 0;
 				else

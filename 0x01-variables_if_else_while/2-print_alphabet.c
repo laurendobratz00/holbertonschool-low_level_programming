@@ -8,16 +8,12 @@
 
 int main(void)
 {
+	char i;
 
-	for (ch = ‘a’; ch <= ‘z’; ch++)
+	printf("\n\nLower case characters:\n");
 
-		putchar(ch);
-
-	putchar (‘\n’);
-
-	getch();
-
-}
+	for (i = 'a'; i <= 'z'; i++)
+		printf("%c ", i);
 
 	return (0);
 	}

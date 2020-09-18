@@ -8,6 +8,7 @@
 
 int main(void)
 {
+	putchar(tolower('A'));
 	char a;
 
 	for (a = 'A' ; a <= 'Z' ; a++)

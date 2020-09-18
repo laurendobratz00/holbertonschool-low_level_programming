@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+/**
+ * main- void
+ * description: All combos of two digits
+ * Return: 0
+*/
+
+int main(void)
+{
+	int i;
+for (i = 0 ; i < n ; i++)
+	putchar(i)
+return (0);
+		}

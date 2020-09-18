@@ -7,7 +7,10 @@
 */
 
 int main(void)
-
-	if ()
-		{
-			putchar()
+{
+	for (a = 'z' ; a => 'a' ; a--)
+	{
+		putchar(a);
+	}
+	return (0);
+}

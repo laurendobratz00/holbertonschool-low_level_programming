@@ -1,10 +1,10 @@
 #include <stdio.h>
-#include <holberton.h>
+#include "holberton.h"
 
 /**
- *
- *
- *
+ * main- void
+ * description: print alphabet 10 times
+ * Return: 0
  */
 
 void print_alphabet(void);

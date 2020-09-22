@@ -2,20 +2,19 @@
 #include "holberton.h"
 
 /**
- * main- void
+ * print_alphabet- void
  * description: print alphabet 10 times
  * Return: 0
  */
 
-void print_alphabet(void);
+void print_alphabet(void)
 
 {
 	char a;
 	char x = '\n';
 
 	for (a = 'a' ; a <= 'z' ; a++)
-	{putchar(a);
+	{_putchar(a);
 	}
-	putchar(x);
-	return (0);
+	_putchar(x);
 }

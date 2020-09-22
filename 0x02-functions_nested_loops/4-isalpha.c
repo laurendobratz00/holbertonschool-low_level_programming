@@ -3,7 +3,7 @@
 
 /**
  * _isalpha - void
- * description: find alpha
+ * @c: find alpha
  * Return: 0
  */
 

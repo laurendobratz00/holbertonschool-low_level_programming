@@ -2,8 +2,8 @@
 #include "holberton.h"
 
 /**
- * main - void
- * description: print alpha
+ * print_alphabet_x10 - void
+ * description: Print alphabet 10 times
  * Return: 0
  */
 

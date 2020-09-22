@@ -2,9 +2,10 @@
 #include "holberton.h"
 
 /**
- * print_sign (int n) - void
+ * print_sign - prints positive or negative
+ * @n: a number that's being passed to this function
  * description: print positive or negative
- * Return: 0
+ * Return: 0, 1, -1
  */
 
 int print_sign(int n)

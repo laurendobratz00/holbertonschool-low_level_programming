@@ -5,7 +5,7 @@
  * print_last_digit - print last digit
  * description: print last digit
  * @r: print last digit
- * Return: r
+ * Return: last digit
  */
 
 int print_last_digit(int r);
@@ -16,5 +16,6 @@ int print_last_digit(int r);
 	{
 		r = (r * -1);
 	}
+	_putchar ('0' + r);
 	return (r);
 }

@@ -1,9 +1,9 @@
 #include "holberton.h"
 
-/*
- * _abs(int) - printing absolute values
- * description: printing absolute values
- * @n: a number that prints the absolute value
+/**
+ * _abs - printing absolute values
+ * @x: a number that prints the absolute value
+ *
  * Return: 0
  */
 

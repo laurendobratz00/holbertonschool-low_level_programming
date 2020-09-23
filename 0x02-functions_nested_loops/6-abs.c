@@ -1,6 +1,4 @@
-#include <stdio.h>
 #include "holberton.h"
-#include <stdlib.h>
 
 /*
  * _abs(int) - printing absolute values
@@ -9,14 +7,11 @@
  * Return: 0
  */
 
-int _abs(int);
+int _abs(int x)
 {
-	int x = abs(n);
-
-	if (n >= 0)
+	if (x < 0)
 	{
-		_putchar(n);
+		x = x * -1;
 	}
-	else
-	return (0);
+	return (x);
 }

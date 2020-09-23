@@ -1,23 +1,26 @@
 #include <stdio.h>
 
 /**
- *
- *
- *
+ * main - void
+ * description: sum
+ * Return: 0
  */
 
-int main ( void ) {
+int main(void)
 
-	int sum = 0;
-	int cnt = 6;
+{
+	long unsigned int i, sum = 0;
 
-	for (int i = 0; i < 1024; i += 5) {
-		sum += i;
-	}
-	for (int i = 0; i < 1024; i += 3) {
-		if (--cnt == 0) cnt = 5;
-		else sum += i;
+	clrscr();
+
+	for (i = 0 ; i < 1024 ; i++)
+	{
+		if ((i % 5 == 0) || (i % 3 == 0))
+		{
+			sum = sum + 1;
+		}
 	}
 	printf("%d\n", sum);
-	return 0;
+	getchar();
+	return (0);
 }

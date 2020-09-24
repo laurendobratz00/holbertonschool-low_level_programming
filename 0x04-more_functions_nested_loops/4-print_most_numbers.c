@@ -4,7 +4,6 @@
 /**
  * print_most_numbers - print zero through nine without numbers
  * description: print zero through nine without numbers
- * @i: integer
  * Return: 0
  */
 

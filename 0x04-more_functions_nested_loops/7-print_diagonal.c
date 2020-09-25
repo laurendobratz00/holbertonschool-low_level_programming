@@ -1,0 +1,25 @@
+#include "holberton.h"
+
+/**
+ * print_diagonal - print diagonal line
+ * description: print diagonal line
+ * @n: character
+ */
+
+void print_diagonal(int n)
+
+{
+	int n = 6;
+	int rows;
+	int space;
+
+	for (rows = 1; rows <= n; rows++)
+	{
+		for (space = 1; space <= n; space++)
+		{
+			_putchar(' ');
+		}
+		_putchar('\\');
+		_putchar('n');
+	}
+}

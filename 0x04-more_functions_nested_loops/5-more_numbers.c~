@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include "holberton.h"
+
+/**
+ *
+ *
+ *
+ */
+
+void more_numbers(void)
+
+{

@@ -10,29 +10,32 @@
 void printnumber(int n)
 
 {
+	char a;
+	int b;
+	char c;
+
 	if (n < 0)
 	{
-		n = n * -1;
 		_putchar('-');
-	}
-	if (n >= 0 && n <= 9)
-		_putchar((n % 10) + '0');
-	else if (n >= 10 && n <= 99)
-	{
-		_putchar((n / 10) + '0');
-		_putchar((n % 10) + '0');
-	}
-	else if (n >= 100 && n <= 999)
-	{
-		_putchar((n / 100) + '0');
-		_putchar('0' + ((n / 10) % 10));
-		_putchar((n % 10) + '0');
+		a = ('0' - (n % 10));
+		n /= -10;
 	}
 	else
 	{
-		_putchar((n / 1000) + '0');
-		_putchar(((n / 100) % 10) + '0');
-		_putchar(((n / 10) % 10) + '0');
-		_putchar((n % 10) + '0');
+		a = ((n % 10) + '0');
+		n /= 10;
 	}
+	b = 0;
+	while (n > 0)
+	{
+		b = b * 10 + (n % 10);
+		n /= 10;
+	}
+	while (b > 0)
+	{
+		c = ((b % 10) + '0');
+		_putchar(c);
+		b /= 10;
+	}
+	_putchar(a);
 }

@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * printnumber - print integer
+ * print_number - print integer
  * description: print integer
  * @n: integer
  * Return: 0

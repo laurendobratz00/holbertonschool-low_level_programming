@@ -3,6 +3,7 @@
 /**
  * printnumber - print integer
  * description: print integer
+ * @n: integer
  * Return: 0
  */
 

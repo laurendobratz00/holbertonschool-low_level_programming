@@ -1,0 +1,20 @@
+#include "holberton.h"
+
+/**
+ * _strlen - return the length of a string
+ * description: return the length of a string
+ * Return: 0
+ */
+
+int _strlen(char *s)
+{
+	char s;
+	int length;
+
+	printf("Enter a string to calculate its length\n");
+	gets(s);
+
+	length = strlen(s)
+		printf("Length of the string = %d\n", length);
+	return 0;
+}

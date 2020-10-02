@@ -1,11 +1,10 @@
 #include "holberton.h"
-#include <string.h>
 
 /**
  * string_toupper - print uppercase string
  * description: print uppercase string
  * @s: char
- * Return: 0
+ * Return: s
  */
 
 char *string_toupper(char *s)

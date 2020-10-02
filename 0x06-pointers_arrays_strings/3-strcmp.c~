@@ -1,0 +1,12 @@
+#include "holberton.h"
+
+/**
+ * _strcmp - compare two strings
+ * description: compare two strings
+ * @s1: char
+ * @s2: char
+ * Return: 
+ */
+
+int _strcmp(char *s1, char *s2)
+{

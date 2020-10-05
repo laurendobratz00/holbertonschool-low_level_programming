@@ -1,0 +1,26 @@
+#include "holberton.h"
+
+/**
+ * print_chessboard - print chessboard
+ * description: print chessboard
+ * @a: character
+ * Return: 0
+ */
+
+void print_chessboard(char (*a)[8])
+{
+	int length, width, i, j;
+
+	for (i = 1; i <= length; i++)
+	{
+		for (j = 1; j <= width; j++)
+		{
+			if ((i + j) % 2 == 0)
+				_putchar('[X]');
+			else
+				_putchar('[ ]');
+		}
+		_putchar ('\n');
+	}
+	return (0);
+}

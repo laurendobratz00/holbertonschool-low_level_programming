@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- *
- *
- *
- *
- *
+ * _strpbrk - search string for set of bytes
+ * description: search string for set of bytes
+ * @s: character
+ * @accept: character
+ * Return: \0
  */
 
 char *_strpbrk(char *s, char *accept)

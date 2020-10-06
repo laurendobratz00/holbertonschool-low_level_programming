@@ -1,0 +1,24 @@
+#include "holberton.h"
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * print_diagsums - print sum of square matrix
+ * description: print sum of square matrix
+ * @a: integer
+ * @size: integer
+ * Return: void
+ */
+
+void print_diagsums(int *a, int size)
+{
+	int x, z = 0, b = 0;
+
+	for (x = 0; x <= (size * size); )
+	{
+		z = *(a + x);
+		x = x + 2 + size;
+	}
+
+	printf("%d, %d\n, z, b);
+}

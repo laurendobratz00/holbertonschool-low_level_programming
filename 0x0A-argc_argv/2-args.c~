@@ -1,0 +1,21 @@
+#include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
+
+/**
+ * main - print all arguments
+ * description: print all arguments
+ * @argc: integer
+ * @argv: character
+ * Return: 0
+ */
+
+int main(int argc, char *argv[])
+{
+	int i;
+
+	printf("%d\n", argc);
+	for (i = 0; i < argc; i++)
+		printf("\n%s", argv[i]);
+	return (0);
+}

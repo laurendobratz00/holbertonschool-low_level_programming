@@ -13,6 +13,7 @@
 int main(int argc, char *argv[])
 {
 	int a, b, prod;
+
 	if (argc < 3)
 	{
 		printf("Error\n");
@@ -23,5 +24,5 @@ int main(int argc, char *argv[])
 	prod = a * b;
 	printf("%d\n", prod);
 
-	return 0;
+	return (0);
 }

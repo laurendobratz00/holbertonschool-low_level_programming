@@ -22,8 +22,6 @@ printf("Error\n");
 return (1);
 }
 change = atoi(argv[1]);
-if (change < 0)
-printf("0\n");
 while (change >= 25)
 {
 	change -= 25;
@@ -49,6 +47,6 @@ while (change >= 1)
 	change -= 1;
 	coin++;
 }
-printf("%d", coin);
+printf("%d\n", coin);
 return (0);
 }

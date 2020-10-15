@@ -15,8 +15,8 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	char *p;
 	unsigned int total;
 
-        if (nmemb == 0 || size == 0)
-                return (NULL);
+if (nmemb == 0 || size == 0)
+return (NULL);
 
 	total = nmemb * size;
 

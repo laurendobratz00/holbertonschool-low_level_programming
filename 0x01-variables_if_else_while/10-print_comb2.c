@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main- void
@@ -7,18 +8,18 @@
  */
 
 int main(void)
-int a, b;
-a = 0
-b = 0
-	for (a <= 9 ; a++)
+{
+	int a;
+	int b;
+
+	for (a = 0; a <= 9 ; a++)
 	{
-	for (b <= 9 ; b++)
-	{
-		putchar(a)
-		putchar(b)
+		for (b = 0; b <= 9 ; b++)
+		putchar(a);
+		putchar(b);
 	}
-	putchar(',')
-	putchar(' ')
+		putchar(',');
+		putchar(' ');
 
 return (0);
 }

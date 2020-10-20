@@ -3,10 +3,46 @@
 #include <stdlib.h>
 
 /**
- * new_dog - 
- *
- *
- *
+ * _strlen - counts the number of characters in a string
+ * @s: This is a pointer to a string
+ * Return: length of a string
+ */
+
+int _strlen(char *s)
+{
+	int count = 0;
+	while (s[count] != '\0')
+	{
+		count++;
+	}
+	return (count);
+}
+
+/**
+ * _strcpy - copies a string to another pointer
+ * @dest: copying to this pointer
+ * @src: input string
+ * Return: void
+ */
+
+char *_strcpy(char *dest, char *src)
+{
+	int i;
+	int count = _strlen(src);
+
+	for (i = 0; i <= count; i++)
+		dest[i] = src[i];
+
+	return (dest);
+}
+
+/**
+ * new_dog - new dog
+ * description: create a new dog
+ * @name: name
+ * @age: age
+ * @owner: owner
+ * Return: NULL
  */
 
 dog_t *new_dog(char *name, float age, char *owner)

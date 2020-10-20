@@ -1,5 +1,12 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
+/**
+ * struct dog - struct dog
+ * @name: char
+ * @age: float
+ * @ownerL: char
+ * description: struct dog
+ */
 
 struct dog
 {

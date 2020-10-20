@@ -1,9 +1,5 @@
-#include "holberton.h"
-
-/**
- * main - void
- * Return: 0
- */
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 
 struct dog
 {
@@ -11,3 +7,5 @@ struct dog
 	float age;
 	char *owner;
 };
+
+#endif

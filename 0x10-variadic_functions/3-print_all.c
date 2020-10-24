@@ -16,6 +16,7 @@ void print_all(const char * const format, ...)
 {
 	va_list args;
 	unsigned int x;
+	int b;
 
 	x = 0;
 
@@ -24,6 +25,7 @@ void print_all(const char * const format, ...)
 		va_start(args, format);
 	while (format[x] != '\0')
 	{
+		b = 1;
 	switch (format[x])
 	{
 	case 'c':
@@ -39,12 +41,12 @@ void print_all(const char * const format, ...)
 		printf("%s", va_arg(args, char *));
 		break;
 	default:
+		b = 0;
 		break;
 	}
-	x++;
-	if (format[x] == 'c' || format[x] == 'i' ||
-format[x] == 'f' || format[x] == 's')
+	if (format[x + 1] && b)
 		printf(", ");
+	x++;
 	}
 	va_end(args);
 	break;

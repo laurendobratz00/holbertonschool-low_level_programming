@@ -3,7 +3,6 @@
 #include <stdlib.h>
 #include <stddef.h>
 #include <stdarg.h>
-#include <stdbool.h>
 
 /**
  * print_all - print anything
@@ -16,10 +15,8 @@ void print_all(const char * const format, ...)
 {
 	char *string;
 	va_list args;
-	unsigned int x;
+	unsigned int x = 0;
 	int b;
-
-	x = 0;
 
 	while (format)
 	{
@@ -30,23 +27,18 @@ void print_all(const char * const format, ...)
 	switch (format[x])
 	{
 	case 'c':
-		printf("%c", va_arg(args, int));
-		break;
+		printf("%c", va_arg(args, int)), break;
 	case 'i':
-		printf("%d", va_arg(args, int));
-		break;
+		printf("%d", va_arg(args, int)), break;
 	case 'f':
-		printf("%f", va_arg(args, double));
-		break;
+		printf("%f", va_arg(args, double)), break;
 	case 's':
 		string = va_arg(args, char *);
 		if (!string)
 			string = "(nil)";
-		printf("%s", string);
-		break;
+		printf("%s", string), break;
 	default:
-		b = 0;
-		break;
+		b = 0, break;
 	}
 	if (format[x + 1] && b)
 		printf(", ");

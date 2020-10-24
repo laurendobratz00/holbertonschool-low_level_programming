@@ -43,6 +43,7 @@ void print_all(const char * const format, ...)
 		if (!string)
 			string = "(nil)";
 		printf("%s", string);
+		break;
 	default:
 		b = 0;
 		break;

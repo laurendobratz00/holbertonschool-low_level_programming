@@ -42,9 +42,9 @@ void print_all(const char * const format, ...)
 		break;
 	}
 	x++;
-	if (format[x] == 'c' || format[x] == 'i' || format[x] == 'f' || format[x] == 's')
+	if (format[x] == 'c' || format[x] == 'i' ||
+format[x] == 'f' || format[x] == 's')
 		printf(", ");
-
 	}
 	va_end(args);
 	break;

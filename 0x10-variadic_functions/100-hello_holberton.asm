@@ -1,11 +1,13 @@
-global _main
-extern _printf
-
-section .text
-_main:
-push message
-call _printf
-add esp, 4
-ret
-message:
-db 'Hello, Holberton', 10, 0
+section .data
+msg:	 db "Hello, Holberton", 10
+	section .text
+	global main
+main:
+	mov edx, 17
+	mov ecx, msg
+	mov ebx, 1
+	mov eax, 4
+	int 0x80
+	mov ebx, 0
+	mov eax, 1
+	int 0x80

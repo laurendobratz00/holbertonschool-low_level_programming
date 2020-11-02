@@ -1,0 +1,41 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "lists.h"
+
+/**
+ *
+ *
+ *
+ *
+ */
+
+list_t *add_node_end(list_t **head, const char *str)
+{
+	list_t *new, *traverse = *head;
+	unsigned int length;
+
+	new = malloc(sizeof(list_t));
+
+	if (new == NULL)
+		return (NULL);
+	if (str == NULL)
+	{
+		new->str = NULL;
+		new->len = 0;
+	}
+	else
+	{
+		new->str = strdup(str);
+		while (str[length] != '\0')
+			length++;
+		new->len = lenth;
+	}
+	new->next = NULL;
+	while (traverse->next != NULL)
+	{
+		traverse = traverse->next;
+	}
+	traverse->next = new;
+	return (new);
+}

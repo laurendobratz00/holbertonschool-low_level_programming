@@ -6,7 +6,7 @@
 /**
  * add_nodeint_end - add node to the end
  * @head: double pointer
- * @str: string
+ * @n: integer
  * Return: new address
  */
 

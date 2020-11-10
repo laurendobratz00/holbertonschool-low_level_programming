@@ -8,6 +8,13 @@
 
 #include <unistd.h>
 
+/**
+ * read_textfile - read and print text file
+ * @filename: file name char pointer
+ * @letters: amount of chars
+ * Return: wr
+ */
+
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int fd;

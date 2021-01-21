@@ -21,13 +21,12 @@ hash_table_t *hash_table_create(unsigned long int size)
 	{
 		return (NULL);
 	}
-	ht->array = (hash_node_t **)malloc(sizeof(hash_node_t));
-	if (ht->array == NULL)
+        ht->size = size;
+	ht->array = calloc(size, sizeof(hash_node_t *));
+	if (!ht->array)
 	{
 		return (NULL);
 	}
-	memset(ht->array, 0, size * sizeof(hash_node_t));
 
-	ht->size = size;
 	return (ht);
 }

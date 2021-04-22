@@ -3,7 +3,7 @@
 #include "search_algos.h"
 
 /**
- * interpolation_search - function that searches for a value in an array of integers
+ * interpolation_search - function that searches for a value in an array of ints
  * @array: a pointer to the first element of the array
  * @size: the number of elements in array
  * @value: the value to search for
